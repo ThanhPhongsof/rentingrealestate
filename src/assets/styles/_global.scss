@@ -1,0 +1,13 @@
+body {
+  background-color: var(--body-bg);
+  font-family: var(--primary-font);
+}
+
+.app {
+  max-width: var(--body-size);
+  margin: 0 auto;
+}
+
+.container{
+max-width: calc(var(--container));
+}
