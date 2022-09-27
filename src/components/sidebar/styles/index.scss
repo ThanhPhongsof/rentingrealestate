@@ -1,0 +1,14 @@
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 0 40px;
+  list-style-type: none;
+  &-link {
+    font-weight: 600;
+    color: var(--thirty-color);
+    line-height: var(--lineHeight);
+    &:hover {
+      color: var(--primary-color);
+    }
+  }
+}

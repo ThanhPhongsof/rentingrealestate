@@ -1,6 +1,12 @@
 body {
   background-color: var(--body-bg);
   font-family: var(--primary-font);
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .app {
@@ -8,6 +14,24 @@ body {
   margin: 0 auto;
 }
 
-.container{
-max-width: calc(var(--container));
+.container {
+  max-width: calc(var(--container) + var(--gap) * 2);
+  padding: 0 var(--gap);
+  margin: 0 auto;
+}
+
+.button {
+  display: inline-block;
+  color: var(--white);
+  line-height: var(--lineHeight);
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  border-radius: var(--button-border);
+  padding: 13px 20px;
+  transition: all 0.3s ease;
+  &--primary {
+    background-color: var(--primary-color);
+  }
 }
