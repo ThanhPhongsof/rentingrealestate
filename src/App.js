@@ -8,6 +8,8 @@ import {
   Tools,
 } from "modules/main";
 
+import "./modules/main/styles/index.scss";
+
 function App() {
   return (
     <div className="app">

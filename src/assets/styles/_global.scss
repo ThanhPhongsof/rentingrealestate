@@ -35,3 +35,36 @@ a {
     background-color: var(--primary-color);
   }
 }
+
+.heading {
+  font-weight: 600;
+  color: var(--primary-color);
+  &--big {
+    font-size: 64px;
+    line-height: calc(74 / 64);
+  }
+  &--medium {
+    font-size: 46px;
+    line-height: calc(56 / 46);
+  }
+  &--small {
+    font-size: 26px;
+    line-height: calc(28 / 26);
+  }
+}
+
+.text {
+  font-size: 18px;
+  line-height: calc(30 / 18);
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  width: 100%;
+  &-image {
+    flex-shrink: 0;
+  }
+}
