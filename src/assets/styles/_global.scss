@@ -9,6 +9,12 @@ a {
   color: inherit;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
 .app {
   max-width: var(--body-size);
   margin: 0 auto;

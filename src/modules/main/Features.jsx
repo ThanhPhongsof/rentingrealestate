@@ -37,9 +37,9 @@ const Features = () => {
               <img srcSet={item.img} alt={item.title} />
             </div>
             <div className="features-content">
-              <h4 className="features-title heading heading--medium">
+              <h3 className="features-title heading heading--medium">
                 {item.title}
-              </h4>
+              </h3>
               <p className="features-text text">{item.text}</p>
               {item.details.length > 0 && (
                 <ul className="features-detail-list">
