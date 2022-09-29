@@ -38,7 +38,7 @@ a {
 
 .heading {
   font-weight: 600;
-  color: var(--primary-color);
+  color: var(--secondary-color);
   &--big {
     font-size: 64px;
     line-height: calc(74 / 64);
@@ -67,4 +67,8 @@ a {
   &-image {
     flex-shrink: 0;
   }
+}
+
+.p-90 {
+  padding: 90px 0;
 }

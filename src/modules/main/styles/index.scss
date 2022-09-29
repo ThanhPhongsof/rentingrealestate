@@ -1,15 +1,2 @@
-.banner {
-  margin-bottom: 150px;
-  &-content {
-    flex: 1;
-    max-width: 590px;
-    .heading {
-      max-width: 540px;
-      margin-bottom: 20px;
-    }
-    .text {
-      max-width: 443px;
-      margin-bottom: 30px;
-    }
-  }
-}
+@import "banner";
+@import "services";
