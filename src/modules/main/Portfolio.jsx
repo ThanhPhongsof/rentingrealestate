@@ -39,6 +39,11 @@ const Portfolio = () => {
             </div>
           ))}
         </div>
+        <div className="portfolio-group">
+          <a href="#!" className="portfolio-button button button--primary">
+            See more
+          </a>
+        </div>
       </LayoutContainer>
     </section>
   );
