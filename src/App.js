@@ -1,6 +1,7 @@
 import { Layout } from "components/layout";
 import {
   Banner,
+  CTA,
   Features,
   Portfolio,
   Services,
@@ -20,6 +21,7 @@ function App() {
           <Features />
           <Portfolio />
           <Tools />
+          <CTA />
           <Testimonial />
         </main>
       </Layout>

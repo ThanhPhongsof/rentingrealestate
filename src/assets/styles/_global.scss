@@ -28,7 +28,6 @@ img {
 
 .button {
   display: inline-block;
-  color: var(--white);
   line-height: var(--lineHeight);
   font-weight: 600;
   cursor: pointer;
@@ -39,6 +38,11 @@ img {
   transition: all 0.3s ease;
   &--primary {
     background-color: var(--primary-color);
+    color: var(--white);
+  }
+  &--secondary {
+    background-color: var(--white);
+    color: var(--primary-color);
   }
 }
 
@@ -56,6 +60,10 @@ img {
   &--small {
     font-size: 26px;
     line-height: calc(28 / 26);
+  }
+  &-suppersmall {
+    font-size: 20px;
+    line-height: calc(30 / 20);
   }
 }
 

@@ -1,0 +1,60 @@
+.cta {
+  --width: 330px;
+  --height: 170px;
+  padding-bottom: 88px;
+  &-heading {
+    max-width: 544px;
+    margin: 0 auto 60px;
+    text-align: center;
+  }
+  &-list {
+    overflow: hidden;
+    white-space: nowrap;
+    user-select: none;
+    cursor: pointer;
+    overflow-x: auto;
+    &::-webkit-scrollbar {
+      width: 0;
+    }
+  }
+  &-item {
+    width: var(--width);
+    height: var(--height);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    margin-right: 40px;
+    position: relative;
+    overflow: hidden;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+  }
+  &-image {
+    width: var(--width);
+    height: var(--height);
+  }
+  &-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px 0;
+  }
+  &-title {
+    color: var(--white);
+    z-index: 999;
+  }
+}
