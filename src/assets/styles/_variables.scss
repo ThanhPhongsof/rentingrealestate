@@ -3,13 +3,21 @@
   --primary-color: #3c50e0;
   --secondary-color: #00005c;
   --thirty-color: #818da9;
+  --tiny-color: #ebedfc;
   --text-color: #627193;
-  --body-bg: #f5fafe;
+  --body-bg: #fff;
   --white: #fff;
+  --whiteF5: #f5fafe;
+  --dark: #000;
+  --blueD6: #d6ebff;
   --body-size: 1440px;
   --container: 1100px;
   --gap: 15px;
   --button-border: 10px;
-  --boxShadow: 0px, 30px rgba(0, 0, 0, 0.09);
-  --lineHeight:calc(24/16);
+  --borderRaidus10px: 10px;
+  --boxShadow30: 0px 30px 120px -26px rgba(0, 0, 0, 0.09);
+  --boxShadow16: 0px 16px 45px -12px rgba(60, 80, 224, 0.05);
+  --boxShadow40: 0px 40px 90px 0px rgba(0, 0, 0, 0.14);
+  --boxShadow60: 0px 60px 80px -32px rgba(60, 80, 224, 0.16);
+  --lineHeight: calc(24 / 16);
 }

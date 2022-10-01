@@ -9,6 +9,12 @@ a {
   color: inherit;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
 .app {
   max-width: var(--body-size);
   margin: 0 auto;
@@ -22,7 +28,6 @@ a {
 
 .button {
   display: inline-block;
-  color: var(--white);
   line-height: var(--lineHeight);
   font-weight: 600;
   cursor: pointer;
@@ -33,5 +38,52 @@ a {
   transition: all 0.3s ease;
   &--primary {
     background-color: var(--primary-color);
+    color: var(--white);
   }
+  &--secondary {
+    background-color: var(--white);
+    color: var(--primary-color);
+  }
+}
+
+.heading {
+  font-weight: 600;
+  color: var(--secondary-color);
+  &--big {
+    font-size: 64px;
+    line-height: calc(74 / 64);
+  }
+  &--medium {
+    font-size: 46px;
+    line-height: calc(56 / 46);
+  }
+  &--small {
+    font-size: 26px;
+    line-height: calc(28 / 26);
+  }
+  &-suppersmall {
+    font-size: 20px;
+    line-height: calc(30 / 20);
+  }
+}
+
+.text {
+  font-size: 18px;
+  line-height: calc(30 / 18);
+  color: var(--text-color);
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  width: 100%;
+  &-image {
+    flex-shrink: 0;
+  }
+}
+
+.p-90 {
+  padding: 90px 0;
 }

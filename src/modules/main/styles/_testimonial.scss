@@ -1,0 +1,55 @@
+.testimonial {
+  padding-bottom: 60px;
+  &-heading {
+    max-width: 614px;
+    margin: 0 auto 80px;
+    text-align: center;
+  }
+  &-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+  }
+  &-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    padding: 48px;
+    background: transparent;
+    transition: all 0.3s ease;
+    &:hover {
+      box-shadow: var(--boxShadow30);
+      background: linear-gradient(
+          180deg,
+          #f4f4f4 0%,
+          rgba(242, 242, 242, 0) 100%
+        ),
+        linear-gradient(0deg, #ffffff, #ffffff);
+    }
+  }
+  &-name {
+    margin: 16px 0 5px;
+  }
+  &-job {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-color);
+    margin-bottom: 44px;
+  }
+  &-quote {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-color);
+    font-style: italic;
+    margin-bottom: 32px;
+    max-width: 256px;
+  }
+  &-stars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+}

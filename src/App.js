@@ -1,12 +1,15 @@
 import { Layout } from "components/layout";
 import {
   Banner,
+  CTA,
   Features,
   Portfolio,
   Services,
   Testimonial,
   Tools,
 } from "modules/main";
+
+import "./modules/main/styles/index.scss";
 
 function App() {
   return (
@@ -18,6 +21,7 @@ function App() {
           <Features />
           <Portfolio />
           <Tools />
+          <CTA />
           <Testimonial />
         </main>
       </Layout>

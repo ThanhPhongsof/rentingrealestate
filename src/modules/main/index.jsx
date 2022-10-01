@@ -4,3 +4,4 @@ export const { default: Features } = require("./Features");
 export const { default: Portfolio } = require("./Portfolio");
 export const { default: Tools } = require("./Tools");
 export const { default: Testimonial } = require("./Testimonial");
+export const { default: CTA } = require("./CTA");
